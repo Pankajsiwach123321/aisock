@@ -49,3 +49,17 @@ export const companyCardData = [
       "UiPath Powering Automation with Intelligent AI Solutions. As a leader in robotic process automation (RPA), UiPath leverages cutting-edge AI technologies to streamline business processes and drive efficiency. With its innovative AI-driven platform and market dominance, UiPath presents a compelling investment opportunity for investors seeking growth and innovation in the AI stock sector",
   },
 ];
+export const statisticsCardData = [
+  {
+    number: "01",
+    about: "Places left to register",
+  },
+  {
+    number: "135",
+    about: "Average Registrations per day",
+  },
+  {
+    number: "5X",
+    about: "The Average Earnings Increase",
+  },
+];

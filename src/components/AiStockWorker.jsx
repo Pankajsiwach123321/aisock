@@ -29,91 +29,99 @@ const AiStockWorker = () => {
           of the best Al companies, eliminating the need to research and choose
           individual stocks on your own.
         </p>
-        <div className=" d-flex justify-content-center gap-lg-66 gap-20 flex-wrap  flex-md-nowrap align-items-start mt-5 pt-5 ">
-          <div className="d-flex max-w-260 w-100 justify-content-center flex-column align-items-center">
-            <div className=" gradiant-line-layer position-relative z-1">
-              <div className="layer-white">
-                <div className="upperlayer">
-                  <div className="white-step-card">
-                    <h3 className=" mb-0 font-opensans fw-bold fs-xl lh_xxl col-low-black ">
-                      01
-                    </h3>
-                    <p className=" mb-0 font-opensans fw-normal text-center fs-sm lh_2md col-low-black ">
-                      STEP
-                    </p>
+        <div className=" max-w-927 mx-auto">
+          <div className=" row mt-lg-5 pt-5 ">
+            <div className="col-md-4 col-sm-6">
+              <div className=" d-flex justify-content-center align-items-center flex-column ">
+                <div className=" gradiant-line-layer position-relative z-1">
+                  <div className="layer-white">
+                    <div className="upperlayer">
+                      <div className="white-step-card">
+                        <h3 className=" mb-0 font-opensans fw-bold fs-xl lh_xxl col-low-black ">
+                          01
+                        </h3>
+                        <p className=" mb-0 font-opensans fw-normal text-center fs-sm lh_2md col-low-black ">
+                          STEP
+                        </p>
+                      </div>
+                    </div>
                   </div>
+                  <span className=" position-absolute set-leftoncircel">
+                    <CircleOrangeDot />
+                  </span>
+                  <span className=" position-absolute set-rightoncircel">
+                    <CircleOrangeDot />
+                  </span>
                 </div>
+                <h2 className="font-opensans fw-bold lh_xl text-center pt-3 mb-0 fs-lg col-white">
+                  Sign up
+                </h2>
+                <p className="font-opensans fw-normal fs-xsm lh_md text-center col-low-gray max-w-240 mx-auto pt-2 mb-0">
+                  Fill out the Registration Form to Get Started.
+                </p>
               </div>
-              <span className=" position-absolute set-leftoncircel">
-                <CircleOrangeDot />
-              </span>
-              <span className=" position-absolute set-rightoncircel">
-                <CircleOrangeDot />
-              </span>
             </div>
-            <h2 className="font-opensans fw-bold lh_xl text-center pt-3 mb-0 fs-lg col-white">
-              Sign up
-            </h2>
-            <p className="font-opensans fw-normal fs-xsm lh_md text-center col-low-gray max-w-240 mx-auto pt-2 mb-0">
-              Fill out the Registration Form to Get Started.
-            </p>
-          </div>
-          <div className="d-flex max-w-260 w-100 justify-content-center flex-column align-items-center">
-            <div className=" gradiant-line-layer position-relative z-1">
-              <div className="layer-white">
-                <div className="upperlayerorange">
-                  <div className="white-step-card oragne-boxshadow">
-                    <h3 className=" mb-0 font-opensans fw-bold fs-xl lh_xxl col-low-black ">
-                      02
-                    </h3>
-                    <p className=" mb-0 font-opensans fw-normal text-center fs-sm lh_2md col-low-black ">
-                      STEP
-                    </p>
+            <div className="col-md-4 col-sm-6 mt-4 mt-sm-0">
+              <div className=" d-flex justify-content-center align-items-center flex-column ">
+                <div className=" gradiant-line-layer position-relative z-1">
+                  <div className="layer-white">
+                    <div className="upperlayerorange">
+                      <div className="white-step-card oragne-boxshadow">
+                        <h3 className=" mb-0 font-opensans fw-bold fs-xl lh_xxl col-low-black ">
+                          02
+                        </h3>
+                        <p className=" mb-0 font-opensans fw-normal text-center fs-sm lh_2md col-low-black ">
+                          STEP
+                        </p>
+                      </div>
+                    </div>
                   </div>
+                  <span className=" position-absolute set-leftoncircel">
+                    <CircleOrangeDot />
+                  </span>
+                  <span className=" position-absolute set-rightoncircel">
+                    <CircleOrangeDot />
+                  </span>
                 </div>
+                <h2 className="font-opensans fw-bold lh_xl text-center pt-3 mb-0 fs-lg col-white">
+                  Verification
+                </h2>
+                <p className="font-opensans fw-normal fs-xsm lh_md text-center col-low-gray max-w-240 mx-auto pt-2 mb-0">
+                  Schedule a Call with Our Verified AI Trading Mentors to Guide
+                  You Through Your Investment Journey
+                </p>
               </div>
-              <span className=" position-absolute set-leftoncircel">
-                <CircleOrangeDot />
-              </span>
-              <span className=" position-absolute set-rightoncircel">
-                <CircleOrangeDot />
-              </span>
             </div>
-            <h2 className="font-opensans fw-bold lh_xl text-center pt-3 mb-0 fs-lg col-white">
-              Verification
-            </h2>
-            <p className="font-opensans fw-normal fs-xsm lh_md text-center col-low-gray max-w-240 mx-auto pt-2 mb-0">
-              Schedule a Call with Our Verified AI Trading Mentors to Guide You
-              Through Your Investment Journey
-            </p>
-          </div>
-          <div className="d-flex justify-content-center flex-column align-items-center">
-            <div className=" gradiant-line-sky-layer position-relative z-1">
-              <div className="layer-white">
-                <div className="upperlayersky">
-                  <div className="white-step-card sky-boxshadow ">
-                    <h3 className=" mb-0 font-opensans fw-bold fs-xl lh_xxl col-low-black ">
-                      03
-                    </h3>
-                    <p className=" mb-0 font-opensans fw-normal text-center fs-sm lh_2md col-low-black ">
-                      STEP
-                    </p>
+            <div className="col-md-4 col-sm-6 mt-4 mt-md-0">
+              <div className=" d-flex justify-content-center align-items-center flex-column ">
+                <div className=" gradiant-line-sky-layer position-relative z-1">
+                  <div className="layer-white">
+                    <div className="upperlayersky">
+                      <div className="white-step-card sky-boxshadow ">
+                        <h3 className=" mb-0 font-opensans fw-bold fs-xl lh_xxl col-low-black ">
+                          03
+                        </h3>
+                        <p className=" mb-0 font-opensans fw-normal text-center fs-sm lh_2md col-low-black ">
+                          STEP
+                        </p>
+                      </div>
+                    </div>
                   </div>
+                  <span className=" position-absolute set-leftoncircel">
+                    <CircleSkyDot />
+                  </span>
+                  <span className=" position-absolute set-rightoncircel">
+                    <CircleSkyDot />
+                  </span>
                 </div>
+                <h2 className="font-opensans fw-bold lh_xl text-center pt-3 mb-0 fs-lg col-white">
+                  Start Investing
+                </h2>
+                <p className="font-opensans fw-normal fs-xsm lh_md text-center col-low-gray max-w-240 mx-auto pt-2 mb-0">
+                  Begin shaping yournce and ease{" "}
+                </p>
               </div>
-              <span className=" position-absolute set-leftoncircel">
-                <CircleSkyDot />
-              </span>
-              <span className=" position-absolute set-rightoncircel">
-                <CircleSkyDot />
-              </span>
             </div>
-            <h2 className="font-opensans fw-bold lh_xl text-center pt-3 mb-0 fs-lg col-white">
-              Start Investing
-            </h2>
-            <p className="font-opensans fw-normal fs-xsm lh_md text-center col-low-gray max-w-240 mx-auto pt-2 mb-0">
-              Begin shaping yournce and ease{" "}
-            </p>
           </div>
         </div>
       </div>
